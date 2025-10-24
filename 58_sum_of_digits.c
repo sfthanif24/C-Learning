@@ -10,9 +10,10 @@ int main()
 
     while (temp != 0)
     {
-        reminder = number % 10;
+        reminder = temp % 10;
         sum = sum + reminder;
         temp = temp / 10;
     }
     printf("%d", sum);
+
 }
